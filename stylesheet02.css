@@ -1,0 +1,71 @@
+.ham-button{
+    transition: all .3s linear;
+}
+
+.ham-button:hover{
+    background-color: black;
+    animation-name: Hamburger;
+    animation-timing-function: ease;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+}
+
+.add-nav-item{
+    color: white;
+    text-decoration: none;
+}
+
+.add-nav-item:hover{
+    color:gray;
+}
+
+#HireButton{
+    transition: all .2s ease;
+}
+
+#HireButton:hover{
+    background-color: gray;
+    transform: scale(1.05, 1.05);
+}
+
+#get-in-touch{
+    transition: all .8s ease;
+}
+
+#get-in-touch:hover{
+    background-color: black;
+    transform: scale(1.06, 1.06);
+}
+
+.work{
+    animation-duration: .3s;
+    animation-iteration-count: 1;
+}
+
+.work:hover{
+    animation-name: ShowBackground;
+    animation-timing-function: ease;
+    z-index: 5;
+    animation-play-state: running;
+}
+
+@keyframes ShowBackground {
+    0%{
+        
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+@keyframes Hamburger {
+    0%{
+
+    }
+    50%{
+        transform: translate(1px, 0px);
+    }
+    100%{
+        transform: translate(-1px, 0px);
+    }
+}

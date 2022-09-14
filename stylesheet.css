@@ -1,0 +1,348 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.hamburger span{
+    display: block;
+    margin:4px;
+    height: 4px;
+    width:30px;
+    background: white;
+    border-radius: 9px; 
+}
+
+.ham-button{
+    background-color: black;
+}
+
+.hamburger span:hover{
+    color: red;
+}
+
+.container{
+
+    height: 185vh;
+
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-container{
+
+    
+    margin: 1%;
+
+    height: 60vh;
+    width: 60vw;
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.head-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style-type: none;
+    height: 8vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item{
+    background-color: rgb(0, 0, 0);   
+    text-decoration: none;
+    justify-self: center;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    margin-right: -10px;
+}
+
+.item:hover{
+    color: gray;
+}
+
+.logo{
+    align-self: center;
+    justify-self: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    font-size: xx-large;
+    margin-left: -2vw;
+}
+
+.hamburger{
+    align-self: center;
+    justify-self: center;
+}
+
+#head-main-sep{
+    height: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: linear-gradient(to left, blue, red);
+}
+
+.socials{
+    margin: 1%;
+
+    height: 30vh;
+    width: 100vw;
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+.other-links{
+    flex: 1 1 100vw;
+    align-self: center;
+    justify-self: end;
+    background-color: rgb(27, 27, 27);
+    height: 40vh;
+}
+
+#first-box{
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#get-in-touch{
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 15px;
+    color: white;
+    background-color: rgb(39, 39, 39);
+    font-weight: bold;
+    position: auto;
+    text-align: center;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    border-radius: 5px;
+    transition: all 4s ease-in-out;
+}
+/* 
+.image:hover{
+    background: contain;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    transform: translate3d(10px, 10px, 10px);
+    
+} */
+
+.icon{
+    font-size: x-large;
+    color: rgb(113, 113, 113);
+    margin-right: 14px;
+    margin-top: 5%;
+}
+
+.foot-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.foot-item{
+    margin: 10px;
+}
+
+.foot-item p{
+    color: rgb(79, 79, 79);
+    font-size: large;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 97.5vw;
+    height: 120vh;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+}
+
+.About{
+    background-color: rgb(1, 1, 1);
+}
+
+.About-item-text{
+    margin: 1%;
+    background: linear-gradient(to right, red, blue);
+    border-radius: 5px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.contact-container{
+    display: flex;
+    width: 98vw;
+    height: 90vh;
+    flex-wrap: wrap;
+}
+
+.contact-me{
+    margin: 1%;
+    background: white;
+    border-radius: 15px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+textarea{
+    width: 90%;
+    height: 100%;
+    resize: none;
+}
+
+.contact-me-container{
+    margin: 1%;
+    background: white;
+    border-radius: 15px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button{
+   transition: all .2s ease;
+}
+
+.submit-button:hover{
+    transform: scale(1.05, 1.05);
+    background-color: gray;
+}
+
+.input-item{
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    height: 45%;
+    border-color: black;
+    margin: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    flex: 1 1 auto;
+}
+
+.google-store:hover{
+    color: black;
+}
+
+.touch-cont{
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+    background: linear-gradient(to right, red, blue);
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+    flex-direction: column;
+    border-radius: 25px;
+    margin-top: 5vh;
+    box-shadow: 2px 2px 20px 10px white;
+}
+
+.touch-item{
+    margin: 1%;
+    width: 100%;
+    height: 50%;
+    background: transparent;
+    color: white;
+}
+
+
+.container01{
+    width: 246px;
+    overflow: hidden;
+}
+.container01 .text{
+    position: relative;
+    color: #4070F4;
+    font-size: 30px;
+    font-weight: 600;
+}
+.container01 .text.first-text{
+    color: #FFF;
+}
+.text.sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #010718;
+    border-left: 2px solid #4070F4;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+@media (max-width: 590px){
+    .item{
+        display: none;
+    }
+
+    .hamburger{
+        display: inline block;
+    }
+}
+
+@media (max-width: 905px){
+    .input-item{
+        font-size: smaller;
+        width: 40%;
+        height: 40%;
+    }
+
+    .input-text{
+        width: 50%;
+        height: 18%;
+    }
+}
+
+@media (max-width: 758px){
+    .input-item{
+        font-size: 30px;
+        width: 30%;
+        height: 30%;
+    }
+
+    .input-text{
+        width: 46%;
+        height: 15%;
+    }
+}

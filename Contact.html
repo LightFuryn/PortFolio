@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://kit.fontawesome.com/4edab68296.js" crossorigin="anonymous"></script>
+        <title>Contact</title>
+        <script src="Behaviour.js"></script>
+    </head>
+
+    <body>
+
+        <header>
+                <nav>
+                    <ul class="head-container" >
+                        <li class="logo" style="color: white;">MaJique</li>
+                        <li><a href="index.html" class="item">HOME</a></li>
+                        <li><a href="About.html" class="item">ABOUT</a></li>
+                        <li><a href="skills.html" class="item">SKILLS</a></li>
+                        <li><a href="Contact.html" class="item">CONTACT</a></li>
+                        <button type="button" class="ham-button" onclick="alert(1);">
+                            <li class="hamburger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </li>
+                        </button>
+                        
+
+                    </ul>
+                    
+                
+                </nav> 
+            
+
+        </header>
+        <hr id="head-main-sep">
+
+        <main>
+
+            <div class="contact-container">
+
+                <div class="contact-me" style="width: 40vw; height: 30vh;">
+                    <p style="color: black; font-size: medium; font-weight: 900; font-family:cursive;">
+                        Contact Number : 8699148185
+                        <br><br>
+                        Email : vdev23102003@gmail.com
+                        <br><br><br><br>    
+                        <a href="https://www.discord.com" style="color: black;"><i class="fab fa-discord" style="font-size: x-large;"></i></a>
+                        <a href="https://www.facebook.com" style="color: black;"><i class="fab fa-facebook" style="font-size: x-large;"></i></a>
+                        <a href="https://www.twitter.com" style="color: black;"><i class="fab fa-twitter" style="font-size: x-large;"></i></a>
+                    </p>
+                </div>
+
+                <div class="contact-me-container" style="height: 80vh; width: 53vw;">
+                    <div class="input-item" style="height: 10%;">
+                        <span style="font-size: .7em;">Name:</span>
+                    </div>
+                    <div class="input-item" style="height: 10%">
+                        <span style="font-size: .7em;">Email:</span>
+                    </div>
+                    <div class="input-item" style="width: 42%; height: 10%;">
+                        <input type="text" id="name" class="input-text">
+                    </div>
+                    <div class="input-item" style="width: 42%; height: 10%;">
+                        <input type="text" id="email" class="input-text">
+                    </div>
+                    <div class="input-item" style="width: 100%; height: 10%;">
+                        Describe Your Query
+                    </div>
+                    <div class="input-item" style="width: 100%;">
+                        <textarea id="query"></textarea>
+                    </div>
+                    <div class="input-item" style="width: 50%; height: 10%;">
+                        <button class="submit-button" onclick="SendQueries()" type="button" style="padding-right: 7%; padding-left: 7%; padding-top: 2%; padding-bottom: 2%; border-radius: 15px; text-align: center; font-weight: bolder;">SUBMIT</button>
+                    </div>
+
+                </div>
+                <div class="contact-me" style="width: 40vw; height: 45vh; margin-top: -50vh;">
+                    <p style="color: black; font-size: medium; font-weight: 900; font-family:cursive;">
+                        Other Contact Numbers:<br><br>
+                        XXXXX-XXXXX<br>
+                        YYYYY-YYYYY<br>
+                        ZZZZZ-ZZZZZ<br>
+                        <br><br>
+                        Other Emails:<br><br> 
+                        abc@gmail.com<br>
+                        xyz@yahoo.com<br>
+                        mnp@hotmail.com
+                        
+                    </p>
+                </div>
+
+            </div>
+
+        </main>
+
+    </body>
+
+
+</html>

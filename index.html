@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="stylesheet02.css">
+        <script src="https://kit.fontawesome.com/4edab68296.js" crossorigin="anonymous"></script>
+        <title>PortFolio</title>
+        <script src="Behaviour.js"></script>
+    </head>
+
+    <body>
+
+        
+        <header>
+                <nav>
+                    <ul class="head-container" >
+                        <li class="logo" style="color: white;">MaJique</li>
+                        <li><a href="index.html" class="item">HOME</a></li>
+                        <li><a href="About.html" class="item">ABOUT</a></li>
+                        <li><a href="skills.html" class="item">SKILLS</a></li>
+                        <li><a href="Contact.html" class="item">CONTACT</a></li>
+                        <button type="button" class="ham-button" onclick="MoreNavigationLinks();">
+                            <li class="hamburger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </li>
+                        </button>
+                        
+
+                    </ul>
+                    
+                
+                </nav> 
+            
+
+        </header>
+        
+        <hr id="head-main-sep">
+
+        <main>
+
+            <div class="container">
+
+                <div id="add-nav-bar" style="display: none;">
+                
+                    <div>
+                        <a href="under_construction.html" target="_blank" class="add-nav-item">BLOG</a>  
+                    </div>
+
+                    <div>
+                        <a href="under_construction.html" target="_blank" class="add-nav-item">MERCH</a>  
+                    </div>
+
+                    <div>
+                        <a href="under_construction.html" target="_blank" class="add-nav-item">MORE</a>  
+                    </div>
+
+                
+                </div>
+                
+                <div class="child-container" style="
+                flex: 5 0 50vw;
+                width: 70vw;
+                background-color: rgb(0, 0, 0);
+                ">
+                    <p id="first-box">
+                        <br>
+                        <br>
+                        <span style="font-size: 50px;"><b>Hi. I'm Varun.</b></span>
+                        <br>
+                        <br>
+                        <span class="container01" style="margin-left: 10px;">
+                            <span class="text first-text">I'm a Freelance</span>
+                            <span class="text sec-text">Freelancer</span>
+                        </span>
+                    
+                        <script>
+                            const text = document.querySelector(".sec-text");
+                    
+                            const textLoad = () => {
+                                setTimeout(() => {
+                                    text.textContent = "Web Designer";
+                                }, 0);
+                                setTimeout(() => {
+                                    text.textContent = "UI Designer";
+                                }, 4000);
+                                setTimeout(() => {
+                                    text.textContent = "Game Designer";
+                                }, 8000); 
+                            }
+                    
+                            textLoad();
+                            setInterval(textLoad, 12000);
+                        </script>    
+                        <span id="first-text" style="font-size: 20px;">
+                        <br>
+                        <br>
+                        Checkout my work below and feel free to get in
+                        <br>
+                        touch if you want to work with me.
+                        <br>
+                        <br>
+                        <button id="get-in-touch" type="button" style="margin-left: 0vw;" onclick="GetInTouch()">Get In Touch</button>
+                    </span>
+                    </p>
+
+                    
+
+                </div>
+                <div class="child-container" style="
+                flex: 3 0 47vh;
+                 
+                ">
+                    <img src="2019.jpg" class="image">
+                </div>
+                <div class="child-container work" style="
+                flex: 1 0 47vh;
+                ">
+                    <img src="img05.webp" class="image">
+                </div>
+                <div class="child-container work" style="
+                flex: 1 0 47vh;
+                
+                ">
+                    <img src="Watch.gif" class="image">
+                    
+                </div>
+                <div class="child-container work" style="
+                flex: 1 0 47vh;
+                
+                ">
+                    <img src="Dishonored.jpg" class="image">
+                </div>
+                <div class="child-container work" style="
+                flex: 4 0 47vh;
+                height: 90vh;
+                ">
+                    <img src="Website.png" class="image">
+                </div>
+                <div class="socials work">
+                    <img src="img12.jpg" class="image">
+                </div>
+
+                <div class="other-links">
+                    <div class="foot-container">
+                        
+                        <div class="foot-item">
+                            <span style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">Quotes</span>
+                            <br><br>
+                            <p>
+                                The Perfect Team
+                                <br><br>
+                                Climbing The Stars
+                                <br><br>
+                                Extraordinary Views
+                                <br><br>
+                                Creating The First Creation
+                            </p>
+                        </div>
+
+                        <div class="foot-item">
+                            <span style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">My Team</span>
+                            <br><br>
+                            <p>        <!--        I have no team so change it -->
+                                Varun Dev
+                                <br><br>    
+                                Hope Mcally
+                                <br><br>
+                                Ray Doofus
+                                <br><br>
+                                Gauss promp
+                                
+                            </p>
+                        </div>
+
+                        <div class="foot-item">
+                            <span style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">About MaJique</span>
+                            <br><br>
+                            <p style="text-align: left;">
+                                MaJique is founded by
+                                <br><br>
+                                Mr. Varun Dev. It is best
+                                <br><br>
+                                known for Creating Websites,
+                                <br><br>
+                                Games and UI for different devices.
+                                <br><br>
+                                
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <a href="https://www.facebook.com"><i class="fab fa-facebook icon"></i></a>
+                            <a href="https://www.instagram.com"><i class="fab fa-instagram icon"></i></a>
+                            <a href="https://www.twitter.com"><i class="fab fa-twitter icon"></i></a>
+                            <br><br><br><br><br>
+                            <span style="font-size: xx-large; color: rgb(102, 102, 102);">MaJique</span>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+        </main>
+
+    </body>
+
+</html>
