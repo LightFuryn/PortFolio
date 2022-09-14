@@ -354,5 +354,11 @@ textarea{
     .head-container.active{
         left: 0;
     }
+
+    .foot-text{
+        font-size: 1px;
+        color: steelblue;
+    }
+
 }
 
