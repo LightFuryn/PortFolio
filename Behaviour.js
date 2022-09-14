@@ -57,15 +57,5 @@ function SendQueries(){
 }
 
 function sendEmail(sender_mail) {
-	Email.send({
-	Host: "smtp.gmail.com",
-	Username : "webntechtecsetco@gmail.com",
-	Password : "8699148185",
-	To : sender_mail,
-	From : "webntechtecsetco@gmail.com",
-	Subject : "New Client",
-	Body : sender_mail + " is the client's email. Contact them soon",
-	}).then(
-		message => alert("mail sent successfully")
-	);
+	// Make this working !
 }
