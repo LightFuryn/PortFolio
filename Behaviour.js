@@ -1,19 +1,15 @@
-var MoreNavAreOn = false;
+function test(){
+    const hamburger = document.querySelector(".ham");
+    const navMenu = document.querySelector(".head-container");
 
-function MoreNavigationLinks(){
-    var navbar = document.querySelector("#add-nav-bar");
-    if(!MoreNavAreOn){
-    navbar.setAttribute("style", "display: flex; width: 100%; height: 5%; background: linear-gradient(to right, red, blue); margin: 0 20%; justify-content: space-around; align-items: center; border-radius: 15px;");
-    MoreNavAreOn = true;
-    }
-    else{
-        navbar.setAttribute("style", "display: none;");
-        MoreNavAreOn = false;
-    }
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
 }
 
+
+
 function GetInTouch(){
-    
+     
     document.location.href = "GetInTouch.html";
     
 }
