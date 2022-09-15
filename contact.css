@@ -1,17 +1,4 @@
-@media (max-width: 905px){
-    .input-item{
-        font-size: smaller;
-        width: 40%;
-        height: 40%;
-    }
-
-    .input-text{
-        width: 50%;
-        height: 18%;
-    }
-}
-
-@media (max-width: 758px){
+@media (max-width: 768px){
     .input-item{
         font-size: 30px;
         width: 40%;
@@ -19,7 +6,11 @@
     }
 
     .input-text{
-        width: 46%;
-        height: 15%;
+        width: 52.5%;
+        height: 30%;
+    }
+
+    .contact-text{
+        font-size: xx-small;
     }
 }
