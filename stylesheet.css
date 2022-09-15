@@ -16,6 +16,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-left: .5vw;
 }
 
 .child-container{
