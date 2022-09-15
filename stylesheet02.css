@@ -11,7 +11,7 @@
     transition: all .3s linear;
 }
 
-.ham-button:hover{
+.ham:hover{
     background-color: black;
     animation-name: Hamburger;
     animation-timing-function: ease;
